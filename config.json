@@ -1,0 +1,15 @@
+{
+    "database": {
+        "production": {
+            "dialect": "sqlite",
+            "storage": "./database.sqlite3",
+            "logging": false
+        },
+        "development": {
+            "dialect": "sqlite",
+            "storage": "./database.sqlite3",
+            "logging": false
+        }
+    },
+    "welcomeMessage": "Welcome $$ !"
+}
